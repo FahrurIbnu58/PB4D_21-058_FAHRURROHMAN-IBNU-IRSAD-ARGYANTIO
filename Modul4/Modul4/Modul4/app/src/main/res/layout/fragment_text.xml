@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FE"
+    tools:context=".TextFragment">
+
+    <TextView
+        android:id="@+id/detail_text_view"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/black"
+        android:text="Aplikasi ini terdiri dari 3 bottom navigation bar dengan menu home, chat dan profile"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#5C10E3"
+        android:text="Tampilkan Konten" />
+
+</FrameLayout>
